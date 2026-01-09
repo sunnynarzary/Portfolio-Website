@@ -1,0 +1,16 @@
+:root {
+  /* Base colors */
+  --color-bg: #ffffff;
+  --color-fg: #171717;
+
+  /* Semantic */
+  --color-text-primary: var(--color-fg);
+  --color-surface: var(--color-bg);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #0a0a0a;
+    --color-fg: #ededed;
+  }
+}

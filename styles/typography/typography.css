@@ -1,0 +1,23 @@
+:root {
+  /* Font families */
+  --font-heading: "Bebas Neue", sans-serif;
+  --font-body: "Nunito", system-ui, sans-serif;
+
+  /* Font sizes */
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-hero: clamp(3rem, 8vw, 6rem);
+
+  /* Line heights */
+  --leading-tight: 1.1;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.75;
+
+  /* Letter spacing */
+  --tracking-tight: -0.01em;
+  --tracking-wide: 0.1em;
+}

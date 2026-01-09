@@ -1,0 +1,18 @@
+.name {
+  position: absolute;
+  inset: 0;
+  z-index: 20;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--color-fg);
+  font-family: var(--font-heading);
+  font-size: var(--text-hero);
+  line-height: var(--leading-tight);
+  letter-spacing: var(--tracking-tight);
+  text-transform: uppercase;
+
+  text-align: center;
+}
