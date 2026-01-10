@@ -6,12 +6,22 @@
 
   inset: 0;
   z-index: 20;
-  padding-bottom: 10rem;
+  padding-top: 14rem;
 
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: end;
+  justify-content: start;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.05rem;
+
+  margin-inline: auto;
 }
 
 .title {
@@ -31,4 +41,8 @@
   line-height: var(--leading-tight);
   letter-spacing: var(--tracking-tight);
   text-transform: uppercase;
+
+  text-align: right;
+  align-self: flex-end;
+  margin-right: 0;
 }

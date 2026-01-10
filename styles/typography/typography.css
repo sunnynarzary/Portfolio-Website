@@ -1,6 +1,7 @@
 :root {
   /* Font families */
   --font-heading: "Bebas Neue", sans-serif;
+  --font-heading2: "Clash Display", sans-serif;
   --font-body: "Nunito", system-ui, sans-serif;
 
   /* Font sizes */
@@ -15,7 +16,7 @@
   --text-5xl: 3rem;
   --text-6xl: 3.75rem;
   --text-7xl: 4.5rem;
-  --text-8xl: 6rem;
+  --text-8xl: 12rem;
   --text-hero: clamp(3rem, 8vw, 6rem);
 
   /* Line heights */

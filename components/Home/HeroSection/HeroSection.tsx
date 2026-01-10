@@ -8,7 +8,7 @@ export default function HeroSection() {
       <VideoBackground />
 
       {/* Dark overlay */}
-      <div className="absolute inset-0 z-10 bg-black/50 pointer-events-none" />
+      <div className="absolute inset-0 z-10 bg-black/30 pointer-events-none" />
 
       {/* Foreground content */}
       <Name />
