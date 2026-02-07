@@ -1,16 +1,15 @@
 :root {
   /* Base colors */
-  --color-bg: #ffffff;
-  --color-fg: #171717;
-
-  /* Semantic */
-  --color-text-primary: var(--color-fg);
-  --color-surface: var(--color-bg);
+  --color-bg: #fff;
+  --color-fg: #000;
+  
+  --color-white: #fff;
+  --color-black: #000;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-bg: #0a0a0a;
-    --color-fg: #ededed;
+    --color-bg: #000;
+    --color-fg: #fff;
   }
 }

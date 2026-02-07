@@ -25,7 +25,7 @@
 }
 
 .title {
-  color: var(--color-fg);
+  color: var(--color-white);
   font-family: var(--font-heading);
   font-size: var(--text-8xl);
   line-height: var(--leading-tight);
@@ -35,7 +35,7 @@
 
 
 .subtitle {
-  color: var(--color-fg);
+  color: var(--color-white);
   font-family: var(--font-body);
   font-size: var(--text-md);
   line-height: var(--leading-tight);
