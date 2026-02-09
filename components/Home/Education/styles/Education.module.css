@@ -1,0 +1,23 @@
+.education {
+  position: relative;
+  z-index: 10;
+  min-height: 100vh;
+  transform: translateY(12vh);
+  opacity: 0.001;
+  transition: transform 900ms cubic-bezier(0.22, 1, 0.36, 1),
+    opacity 600ms ease;
+  will-change: transform, opacity;
+}
+
+.revealed {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .education {
+    transform: none;
+    opacity: 1;
+    transition: none;
+  }
+}

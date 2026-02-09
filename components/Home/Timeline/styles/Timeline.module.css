@@ -1,0 +1,81 @@
+.background {
+  min-height: 100svh;
+  display: flex;
+  align-items: stretch;
+}
+
+.timeline {
+  position: relative;
+  display: grid;
+  gap: 28px;
+  padding-left: 48px;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 16px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: rgba(11, 11, 11, 0.2);
+}
+
+.item {
+  position: relative;
+}
+
+.marker {
+  position: absolute;
+  left: 6px;
+  top: 8px;
+  width: 20px;
+  height: 20px;
+  border-radius: 999px;
+  background: #0b0b0b;
+  box-shadow:
+    0 0 0 6px rgba(11, 11, 11, 0.12),
+    0 10px 24px rgba(11, 11, 11, 0.18);
+}
+
+.card {
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px 22px;
+  box-shadow: 0 16px 30px rgba(15, 15, 15, 0.08);
+  backdrop-filter: blur(6px);
+}
+
+.period {
+  font-size: 0.9rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(15, 15, 15, 0.6);
+  margin-bottom: 6px;
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #0b0b0b;
+  margin-bottom: 4px;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: rgba(15, 15, 15, 0.7);
+}
+
+@media (max-width: 640px) {
+  .timeline {
+    padding-left: 40px;
+  }
+
+  .timeline::before {
+    left: 12px;
+  }
+
+  .marker {
+    left: 3px;
+  }
+}

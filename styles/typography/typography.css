@@ -1,8 +1,7 @@
 :root {
   /* Font families */
-  --font-heading: "Bebas Neue", sans-serif;
-  --font-heading2: "Clash Display", sans-serif;
-  --font-body: "Nunito", system-ui, sans-serif;
+  --font-display: "Space Grotesk", "Segoe UI", sans-serif;
+  --font-body: "Manrope", "Segoe UI", sans-serif;
 
   /* Font sizes */
   --text-xs: 0.75rem;
@@ -17,14 +16,46 @@
   --text-6xl: 3.75rem;
   --text-7xl: 4.5rem;
   --text-8xl: 12rem;
-  --text-hero: clamp(3rem, 8vw, 6rem);
+  --text-hero: clamp(2.75rem, 7vw, 6.5rem);
+  --text-display: clamp(2.25rem, 4.5vw, 4.75rem);
 
   /* Line heights */
-  --leading-tight: 1.1;
-  --leading-normal: 1.5;
+  --leading-tight: 1.08;
+  --leading-normal: 1.55;
   --leading-relaxed: 1.75;
 
   /* Letter spacing */
-  --tracking-tight: -0.01em;
-  --tracking-wide: 0.1em;
+  --tracking-tight: -0.02em;
+  --tracking-normal: -0.01em;
+  --tracking-wide: 0.08em;
+
+  /* Weights */
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: var(--font-body);
+  font-weight: var(--weight-regular);
+  letter-spacing: var(--tracking-normal);
+  line-height: var(--leading-normal);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-display);
+  letter-spacing: var(--tracking-tight);
+  line-height: var(--leading-tight);
 }
